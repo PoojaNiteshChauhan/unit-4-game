@@ -1,0 +1,71 @@
+<html>
+<head>
+<title> Crystals Collector </title>
+<link rel="stylesheet" type="text/css" href= "css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    
+    
+<div class ="backgroundimage">
+
+    <header>
+        <div class = "head">
+            <h1>  Crystals Collector! </h1>
+        </div>
+    </header>
+<div class = "Paragraph">
+    <strong>
+        <p> You will be given a random number at the start of the game </p>
+        <p> There are Four Crystals below. By clicking on the crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game of your total score goes above the random number</p>
+        <p>The value of each crystal is hidden from you until you click on it</p>
+        <p>Eachtime when the game starts, the game will change the values of each Crystal</p>
+    </strong>
+</div>
+
+
+<div class = "result">  
+    
+        <div class="col-md-6">
+                <div id ="randomNumber">   </div>
+                <div id = "WinLoss"> Win:  Loss :  </div>
+        </div>
+    </div>
+
+<div class="images">
+        <div class="row">
+            <div class="column">
+            <img id= "yellowStone" src="image/yellow d.jpg" alt="Yellow Stone" style="width:100%" >
+            </div>
+            <div class="column">
+            <img id= "redStone" src="image/red 2.jpg" alt="Red Stone"style="width:100%">
+            </div>
+            <div class="column">
+            <img id= "greenStone" src="image/green 3.png" alt="Green Stone"style="width:100%">
+            </div>
+            <div class="column">
+                <img id= "blueStone" src="image/blue 4.png" alt="Blue Stone"style="width:100%">
+            </div>
+        </div>
+</div>
+    
+<div class = "paraScore">
+    <h2> Your total score : </h2>
+</div>
+
+<div class = "totalScore">
+        <h3 id = "UserScore"> 0 </h3>
+</div>
+        
+</div>
+
+<script type="text/javascript" src = "../Assets/javascript/game.js">
+
+
+</script>
+</body>
+</html>

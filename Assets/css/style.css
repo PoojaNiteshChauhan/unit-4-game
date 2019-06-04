@@ -1,0 +1,80 @@
+.backgroundimage {
+    background-image: url("../image/bg7.jpg");
+ height: 1000px;
+    width:  auto;
+background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.head {
+
+    background-color: yellow;
+    height: 80px;
+    width: 700px;
+    text-align: center;
+    padding : 20px;
+    text-shadow:2px 2px #FF0000;
+    
+}
+
+.Paragraph {
+
+    text-align: left;
+    background-color: greenyellow;
+    width: 700px;
+    height : 250px;
+
+}
+
+#randomNumber {
+    background-color: pink;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+
+
+
+}
+#WinLoss {
+    background-color: lightblue;
+    height: 100px;
+    width: 150px;
+    text-align: center;  
+
+}
+
+.column {
+    float: left;
+    width: 180px;
+    padding: 5px;
+    height: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.paraScore{
+    background-color: orange;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+
+.totalScore{
+    background-color: yellow;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+}
+.images {
+    height: 180px;
+}
+
+  

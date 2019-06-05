@@ -27,7 +27,7 @@ function resetGame (){
 
 function updateScoreBoard (){
 
-$("#WinLoss").text(" Win:" + win + "Loss :" + lose );
+$("#WinLoss").text(" WINNING :" + win +  "Loss :" + lose );
 }
 
 
